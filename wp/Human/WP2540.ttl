@@ -1,0 +1,103 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://identifiers.org/chemspider/29303354>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "methapyrilene-S-oxide" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/ZGQOOZZGWKRTRD-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/chemspider/29303354> ;
+        dc:source           "Chemspider" ;
+        dcterms:identifier  "29303354" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2540_r116990> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/29303354> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/ZGQOOZZGWKRTRD-UHFFFAOYSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID71656184> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q59851364> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2540_r116990/DataNode/bf1a1> ;
+        foaf:page           <http://www.chemspider.com/Chemical-Structure.29303354.html> .
+
+<https://identifiers.org/pubmed/18451316>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "18451316" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2540_r116990> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18451316> .
+
+<https://identifiers.org/wikipathways/WP2540>
+        pav:hasVersion  <https://identifiers.org/wikipathways/WP2540_r116990> .
+
+<https://identifiers.org/wikipathways/WP2540_r116990>
+        rdf:type               wp:Pathway , skos:Collection ;
+        dc:identifier          <https://identifiers.org/wikipathways/WP2540> ;
+        dc:source              "WikiPathways" ;
+        dc:title               "Methapyrilene metabolic pathway"@en ;
+        dcterms:identifier     "WP2540" ;
+        dcterms:references     <https://identifiers.org/pubmed/18451316> ;
+        cito:cites             <https://identifiers.org/pubmed/18451316> ;
+        wp:isAbout             <http://rdf.wikipathways.org/Pathway/WP2540_r116990> ;
+        wp:ontologyTag         <http://purl.obolibrary.org/obo/PW_0000124> , <http://purl.obolibrary.org/obo/PW_0001229> ;
+        wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_10116> ;
+        wp:organismName        "Rattus norvegicus" ;
+        wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0000124> , <http://purl.obolibrary.org/obo/PW_0001229> ;
+        foaf:page              <http://www.wikipathways.org/instance/WP2540_r116990> .
+
+<https://identifiers.org/chemspider/3956>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Methapyrilene" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/HNJJXZKZRAWDPF-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/chemspider/3956> ;
+        dc:source           "Chemspider" ;
+        dcterms:identifier  "3956" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2540_r116990> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:6820> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/3956> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/HNJJXZKZRAWDPF-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C11114> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID4098> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q59854145> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2540_r116990/DataNode/d8ed3> ;
+        foaf:page           <http://www.chemspider.com/Chemical-Structure.3956.html> .
+
+<https://identifiers.org/chemspider/138399>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "MP-Noxide" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/GNZXFNTUTAEIJV-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/chemspider/138399> ;
+        dc:source           "Chemspider" ;
+        dcterms:identifier  "138399" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2540_r116990> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/138399> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/GNZXFNTUTAEIJV-UHFFFAOYSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID157252> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q59851503> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2540_r116990/DataNode/c25fd> ;
+        foaf:page           <http://www.chemspider.com/Chemical-Structure.138399.html> .
+
+<https://identifiers.org/pubchem.compound/157251>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "demethylated methapyrilene" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/MEVRBIXLXBAVEY-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/157251> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "157251" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2540_r116990> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/MEVRBIXLXBAVEY-UHFFFAOYSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID157251> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50318236> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2540_r116990/DataNode/bbbd7> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=157251> .

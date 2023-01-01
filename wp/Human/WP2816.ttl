@@ -1,0 +1,294 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://identifiers.org/pubchem.compound/3025746>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "3-carbamoyl-2-phenyl propionic acid" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/AYRIVCKWIAUVOO-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/3025746> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "3025746" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/idbc4392ed> , <https://identifiers.org/wikipathways/WP2816_r117724> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:80589> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/2291433> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0060367> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/AYRIVCKWIAUVOO-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C16591> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3025746> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27149631> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2816_r117724/DataNode/ea7d2> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=3025746> .
+
+<https://identifiers.org/chemspider/8096945>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "p-hydroxyfelbamate" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/PXBZEVLDFAKFLV-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/chemspider/8096945> ;
+        dc:source           "Chemspider" ;
+        dcterms:identifier  "8096945" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/ida2793a37> , <https://identifiers.org/wikipathways/WP2816_r117724> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:80584> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/8096945> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/PXBZEVLDFAKFLV-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C16584> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID9921310> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27149625> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2816_r117724/DataNode/fcf5a> ;
+        foaf:page           <http://www.chemspider.com/Chemical-Structure.8096945.html> .
+
+<https://identifiers.org/ec-code/1.1.1.1>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "1.1.1.1" ;
+        dc:identifier       <https://identifiers.org/ec-code/1.1.1.1> ;
+        dc:source           "Enzyme Nomenclature" ;
+        dcterms:identifier  "1.1.1.1" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/id3e56aed> , <https://identifiers.org/wikipathways/WP2816_r117724> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2816_r117724/DataNode/af4ea> ;
+        foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=1.1.1.1> .
+
+<https://identifiers.org/hmdb/HMDB0015084>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Felbamate" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/WKGXYQFOCVYPAC-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/hmdb/HMDB0015084> ;
+        dc:source           "HMDB" ;
+        dcterms:identifier  "HMDB0015084" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2816_r117724> , <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/idb9efe33e> , <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/id3f269cae> , <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/ida2793a37> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:4995> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/3214> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0015084> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/WKGXYQFOCVYPAC-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C07501> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3331> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q421301> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2816_r117724/DataNode/fd836> ;
+        foaf:page           <http://www.hmdb.ca/metabolites/HMDB0015084> .
+
+<https://identifiers.org/wikipathways/WP2816_r117724>
+        rdf:type               skos:Collection , wp:Pathway ;
+        dc:identifier          <https://identifiers.org/wikipathways/WP2816> ;
+        dc:source              "WikiPathways" ;
+        dc:title               "Felbamate metabolism"@en ;
+        dcterms:description    "CYP metabolism of felbamate." ;
+        dcterms:identifier     "WP2816" ;
+        dcterms:references     <https://identifiers.org/pubmed/9314612> ;
+        cito:cites             <https://identifiers.org/pubmed/11823110> , <https://identifiers.org/pubmed/9314612> ;
+        wp:isAbout             <http://rdf.wikipathways.org/Pathway/WP2816_r117724> ;
+        wp:ontologyTag         <http://purl.obolibrary.org/obo/PW_0001229> , <http://purl.obolibrary.org/obo/PW_0000923> ;
+        wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName        "Homo sapiens" ;
+        wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0000923> , <http://purl.obolibrary.org/obo/PW_0001229> ;
+        foaf:page              <http://www.wikipathways.org/instance/WP2816_r117724> .
+
+<http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/id6a66c32a>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2816_r117724> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2816_r117724/Interaction/id6a66c32a> ;
+        wp:participants   <https://identifiers.org/ec-code/1.2.1.5> , <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/idbc4392ed> ;
+        wp:source         <https://identifiers.org/ec-code/1.2.1.5> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/idbc4392ed> .
+
+<http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/idfed6409>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2816_r117724> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2816_r117724/Interaction/idfed6409> ;
+        wp:participants   <https://identifiers.org/pubchem.compound/21350391> , <https://identifiers.org/chemspider/184751> ;
+        wp:source         <https://identifiers.org/chemspider/184751> ;
+        wp:target         <https://identifiers.org/pubchem.compound/21350391> .
+
+<https://identifiers.org/ensembl/ENSG00000160868>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "CYP3A4" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000160868> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000160868" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2816_r117724> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000160868> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/1576> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CYP3A4> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q6GRK0> , <https://identifiers.org/uniprot/A0A494C0W7> , <https://identifiers.org/uniprot/C9JBD2> , <https://identifiers.org/uniprot/A0A499FJM4> , <https://identifiers.org/uniprot/E7EVM8> , <https://identifiers.org/uniprot/P08684> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q14864419> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2816_r117724/DataNode/bd51b> , <http://rdf.wikipathways.org/Pathway/WP2816_r117724/DataNode/fb29a> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000160868> .
+
+<https://identifiers.org/pubmed/9314612>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "9314612" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2816_r117724> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/9314612> .
+
+<https://identifiers.org/pubchem.compound/10312>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "atropaldehyde" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/ZFBRJUBOJXNIQM-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/10312> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "10312" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/id7c8acb49> , <https://identifiers.org/wikipathways/WP2816_r117724> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:80590> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/9890> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0060671> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/ZFBRJUBOJXNIQM-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C16592> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID10312> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27149632> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2816_r117724/DataNode/a51f4> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=10312> .
+
+<http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/idbc4392ed>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2816_r117724> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2816_r117724/Interaction/idbc4392ed> ;
+        wp:participants   <https://identifiers.org/pubchem.compound/3025746> , <https://identifiers.org/pubchem.compound/21350391> ;
+        wp:source         <https://identifiers.org/pubchem.compound/21350391> ;
+        wp:target         <https://identifiers.org/pubchem.compound/3025746> .
+
+<https://identifiers.org/wikipathways/WP2816>
+        pav:hasVersion  <https://identifiers.org/wikipathways/WP2816_r117724> .
+
+<https://identifiers.org/chemspider/184751>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "3-Hydroxy-2-phenylpropyl carbamate" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/JQVQIZWJBLGVRW-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/chemspider/184751> ;
+        dc:source           "Chemspider" ;
+        dcterms:identifier  "184751" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/idfed6409> , <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/id3f269cae> , <https://identifiers.org/wikipathways/WP2816_r117724> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:80585> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/184751> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/JQVQIZWJBLGVRW-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C16586> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID213060> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27149627> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2816_r117724/DataNode/c6700> ;
+        foaf:page           <http://www.chemspider.com/Chemical-Structure.184751.html> .
+
+<https://identifiers.org/chemspider/8575477>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "2-hydroxyfelbamate" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/VTXNIAJKDLEHGX-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/chemspider/8575477> ;
+        dc:source           "Chemspider" ;
+        dcterms:identifier  "8575477" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2816_r117724> , <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/idb9efe33e> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:80583> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/8575477> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/VTXNIAJKDLEHGX-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C16582> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID10400039> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27149624> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2816_r117724/DataNode/f01c5> ;
+        foaf:page           <http://www.chemspider.com/Chemical-Structure.8575477.html> .
+
+<http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/ida2793a37>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2816_r117724> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2816_r117724/Interaction/ida2793a37> ;
+        wp:participants   <https://identifiers.org/chemspider/8096945> , <https://identifiers.org/hmdb/HMDB0015084> ;
+        wp:source         <https://identifiers.org/hmdb/HMDB0015084> ;
+        wp:target         <https://identifiers.org/chemspider/8096945> .
+
+<http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/idb9efe33e>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2816_r117724> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2816_r117724/Interaction/idb9efe33e> ;
+        wp:participants   <https://identifiers.org/chemspider/8575477> , <https://identifiers.org/hmdb/HMDB0015084> ;
+        wp:source         <https://identifiers.org/hmdb/HMDB0015084> ;
+        wp:target         <https://identifiers.org/chemspider/8575477> .
+
+<https://identifiers.org/pubchem.compound/21350391>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "3-carbamoyl-2-phenyl propionaldehyde" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/XUCMSYZLYLONTH-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/21350391> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "21350391" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/idbc4392ed> , <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/id7c8acb49> , <https://identifiers.org/wikipathways/WP2816_r117724> , <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/idfed6409> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:80586> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/19250426> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0060366> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/XUCMSYZLYLONTH-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C16587> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID21350391> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27149628> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2816_r117724/DataNode/ed054> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=21350391> .
+
+<http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/id3f269cae>
+        rdf:type            wp:Interaction , wp:Conversion , wp:DirectedInteraction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2816_r117724> ;
+        dcterms:references  <https://identifiers.org/pubmed/11823110> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2816_r117724/Interaction/id3f269cae> ;
+        wp:participants     <https://identifiers.org/chemspider/184751> , <https://identifiers.org/hmdb/HMDB0015084> ;
+        wp:source           <https://identifiers.org/hmdb/HMDB0015084> ;
+        wp:target           <https://identifiers.org/chemspider/184751> .
+
+<http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/id3e56aed>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2816_r117724> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2816_r117724/Interaction/id3e56aed> ;
+        wp:participants   <https://identifiers.org/ec-code/1.1.1.1> , <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/idfed6409> ;
+        wp:source         <https://identifiers.org/ec-code/1.1.1.1> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/idfed6409> .
+
+<https://identifiers.org/ensembl/ENSG00000130649>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "CYP2E1" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000130649> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000130649" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2816_r117724> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000130649> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/1571> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CYP2E1> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/H0Y7H4> , <https://identifiers.org/uniprot/F5H694> , <https://identifiers.org/uniprot/H0YGV5> , <https://identifiers.org/uniprot/P05181> , <https://identifiers.org/uniprot/H0Y593> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q14864434> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2816_r117724/DataNode/f590e> , <http://rdf.wikipathways.org/Pathway/WP2816_r117724/DataNode/ceb78> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000130649> .
+
+<http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/id7c8acb49>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2816_r117724> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2816_r117724/Interaction/id7c8acb49> ;
+        wp:participants   <https://identifiers.org/pubchem.compound/10312> , <https://identifiers.org/pubchem.compound/21350391> ;
+        wp:source         <https://identifiers.org/pubchem.compound/21350391> ;
+        wp:target         <https://identifiers.org/pubchem.compound/10312> .
+
+<https://identifiers.org/pubmed/11823110>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "11823110" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/id3f269cae> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28645808> ;
+        owl:sameAs          <https://doi.org/10.1016%2FS0920-1211%2801%2900320-5> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/11823110> .
+
+<https://doi.org/10.1016%2FS0920-1211%2801%2900320-5>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/S0920-1211(01)00320-5" .
+
+<https://identifiers.org/ec-code/1.2.1.5>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "1.2.1.5" ;
+        dc:identifier       <https://identifiers.org/ec-code/1.2.1.5> ;
+        dc:source           "Enzyme Nomenclature" ;
+        dcterms:identifier  "1.2.1.5" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2816_r117724> , <http://rdf.wikipathways.org/Pathway/WP2816_r117724/WP/Interaction/id6a66c32a> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2816_r117724/DataNode/d506d> ;
+        foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=1.2.1.5> .

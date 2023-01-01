@@ -1,0 +1,187 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://identifiers.org/ensembl/ENSG00000021461>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "CYP3A43" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000021461> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000021461" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2640_r117652> , <http://rdf.wikipathways.org/Pathway/WP2640_r117652/WP/Interaction/id6b0af018> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000021461> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/64816> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CYP3A43> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/E9PDL8> , <https://identifiers.org/uniprot/E7EMH4> , <https://identifiers.org/uniprot/E9PG90> , <https://identifiers.org/uniprot/C9JA26> , <https://identifiers.org/uniprot/Q9HB50> , <https://identifiers.org/uniprot/Q9HB55> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q18045770> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2640_r117652/DataNode/ef6ee> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000021461> .
+
+<https://identifiers.org/pubmed/17164689>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "17164689" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2640_r117652> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/17164689> .
+
+<https://identifiers.org/pubchem.compound/10114519>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "dehydroaripiprazole" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/CDONPRYEWWPREK-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/10114519> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "10114519" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2640_r117652> , <http://rdf.wikipathways.org/Pathway/WP2640_r117652/WP/Interaction/idf965780e> ;
+        dcterms:references  <https://identifiers.org/pubmed/15770075> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/8290042> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0250942> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/CDONPRYEWWPREK-UHFFFAOYSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID10114519> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27255535> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2640_r117652/DataNode/d02eb> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=10114519> .
+
+<https://identifiers.org/pubmed/15770075>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "15770075" ;
+        dcterms:isPartOf    <https://identifiers.org/pubchem.compound/10114519> , <https://identifiers.org/wikipathways/WP2640_r117652> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q46381438> ;
+        owl:sameAs          <https://doi.org/10.2133%2FDMPK.20.55> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/15770075> .
+
+<https://identifiers.org/pubmed/15257633>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "15257633" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2640_r117652> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/15257633> .
+
+<https://identifiers.org/pubmed/14998222>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "14998222" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2640_r117652> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/14998222> .
+
+<http://rdf.wikipathways.org/Pathway/WP2640_r117652/WP/Interaction/idf965780e>
+        rdf:type            wp:Interaction , wp:Conversion , wp:DirectedInteraction ;
+        dc:source           "XMetDB" ;
+        dcterms:identifier  "XMETDB172" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2640_r117652> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2640_r117652/Interaction/idf965780e> ;
+        wp:participants     <https://identifiers.org/hmdb/HMDB0005042> , <https://identifiers.org/pubchem.compound/10114519> ;
+        wp:source           <https://identifiers.org/hmdb/HMDB0005042> ;
+        wp:target           <https://identifiers.org/pubchem.compound/10114519> .
+
+<https://identifiers.org/wikipathways/WP2640_r117652>
+        rdf:type               wp:Pathway , skos:Collection ;
+        dc:identifier          <https://identifiers.org/wikipathways/WP2640> ;
+        dc:source              "WikiPathways" ;
+        dc:title               "Aripiprazole metabolic pathway"@en ;
+        dcterms:description    "The CYP P450 metabolism of aripiprazole has been studied and described in several papers (like the one in the bibliography), except for the original primary literature describing the experiments and the exact metabolite structures. The two CYPs are said to be involved in N-dealkylation and dehydrogenation. " ;
+        dcterms:identifier     "WP2640" ;
+        dcterms:references     <https://identifiers.org/pubmed/14998222> , <https://identifiers.org/pubmed/15257633> , <https://identifiers.org/pubmed/17214606> , <https://identifiers.org/pubmed/15770075> , <https://identifiers.org/pubmed/17164689> ;
+        cito:cites             <https://identifiers.org/pubmed/17164689> , <https://identifiers.org/pubmed/15770075> , <https://identifiers.org/pubmed/17214606> , <https://identifiers.org/pubmed/14998222> , <https://identifiers.org/pubmed/15257633> ;
+        wp:isAbout             <http://rdf.wikipathways.org/Pathway/WP2640_r117652> ;
+        wp:ontologyTag         <http://purl.obolibrary.org/obo/PW_0001229> , <http://purl.obolibrary.org/obo/PW_0000375> ;
+        wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName        "Homo sapiens" ;
+        wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0001229> , <http://purl.obolibrary.org/obo/PW_0000375> ;
+        foaf:page              <http://www.wikipathways.org/instance/WP2640_r117652> .
+
+<https://doi.org/10.2133%2FDMPK.20.55>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.2133/DMPK.20.55" .
+
+<https://identifiers.org/ensembl/ENSG00000100197>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "CYP2D6" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000100197> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000100197" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2640_r117652/WP/Interaction/id403afc34> , <https://identifiers.org/wikipathways/WP2640_r117652> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000100197> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/1565> , <https://identifiers.org/ncbigene/107987479> , <https://identifiers.org/ncbigene/107987478> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CYP2D6> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/H7BY38> , <https://identifiers.org/uniprot/P10635> , <https://identifiers.org/uniprot/C1ID52> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2640_r117652/DataNode/c1ed5> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000100197> .
+
+<https://identifiers.org/hmdb/HMDB0005042>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "aripiprazole" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/CEUORZQYGODEFX-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/hmdb/HMDB0005042> ;
+        dc:source           "HMDB" ;
+        dcterms:identifier  "HMDB0005042" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2640_r117652/WP/Interaction/id7653b8d8> , <https://identifiers.org/wikipathways/WP2640_r117652> , <http://rdf.wikipathways.org/Pathway/WP2640_r117652/WP/Interaction/idf965780e> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:31236> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/54790> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0005042> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/CEUORZQYGODEFX-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C12564> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID60795> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q411188> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2640_r117652/DataNode/cf694> ;
+        foaf:page           <http://www.hmdb.ca/metabolites/HMDB0005042> .
+
+<http://rdf.wikipathways.org/Pathway/WP2640_r117652/WP/Interaction/id7653b8d8>
+        rdf:type          wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2640_r117652> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2640_r117652/Interaction/id7653b8d8> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:25212> , <https://identifiers.org/hmdb/HMDB0005042> ;
+        wp:source         <https://identifiers.org/hmdb/HMDB0005042> ;
+        wp:target         <https://identifiers.org/chebi/CHEBI:25212> .
+
+<https://identifiers.org/chebi/CHEBI:25212>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Product" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:25212> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:25212" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2640_r117652/WP/Interaction/id7653b8d8> , <https://identifiers.org/wikipathways/WP2640_r117652> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:25212> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q407595> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2640_r117652/DataNode/dd805> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:25212> .
+
+<http://rdf.wikipathways.org/Pathway/WP2640_r117652/WP/Interaction/id6b0af018>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2640_r117652> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2640_r117652/Interaction/id6b0af018> ;
+        wp:participants   <https://identifiers.org/ensembl/ENSG00000021461> , <http://rdf.wikipathways.org/Pathway/WP2640_r117652/WP/Interaction/id7653b8d8> ;
+        wp:source         <https://identifiers.org/ensembl/ENSG00000021461> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP2640_r117652/WP/Interaction/id7653b8d8> .
+
+<https://identifiers.org/pubmed/17214606>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "17214606" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2640_r117652> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/17214606> .
+
+<https://identifiers.org/wikipathways/WP2640>
+        pav:hasVersion  <https://identifiers.org/wikipathways/WP2640_r117652> .
+
+<http://rdf.wikipathways.org/Pathway/WP2640_r117652/WP/Interaction/id403afc34>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2640_r117652> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2640_r117652/Interaction/id403afc34> ;
+        wp:participants   <https://identifiers.org/ensembl/ENSG00000100197> , <http://rdf.wikipathways.org/Pathway/WP2640_r117652/WP/Interaction/idf965780e> ;
+        wp:source         <https://identifiers.org/ensembl/ENSG00000100197> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP2640_r117652/WP/Interaction/idf965780e> .

@@ -1,0 +1,224 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://identifiers.org/pubchem.compound/11245227>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Sulindac-S" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/MLKXDPUZXIRXEP-WXKFDZDZSA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/11245227> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "11245227" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/id88e36fe3> , <https://identifiers.org/wikipathways/WP2541_r117021> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/9420262> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/MLKXDPUZXIRXEP-WXKFDZDZSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID11245227> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26998355> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2541_r117021/DataNode/c89b3> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=11245227> .
+
+<http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/id1bc04a73>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2541_r117021> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2541_r117021/Interaction/id1bc04a73> ;
+        wp:participants   <https://identifiers.org/ensembl/ENSRNOG00000012440> , <http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/id88e36fe3> ;
+        wp:source         <https://identifiers.org/ensembl/ENSRNOG00000012440> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/id88e36fe3> .
+
+<https://identifiers.org/pubmed/21383205>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21383205" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2541_r117021> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21383205> .
+
+<http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/id1d00538b>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2541_r117021> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2541_r117021/Interaction/id1d00538b> ;
+        wp:participants   <https://identifiers.org/pubchem.compound/16046677> , <https://identifiers.org/chemspider/4509492> ;
+        wp:source         <https://identifiers.org/chemspider/4509492> ;
+        wp:target         <https://identifiers.org/pubchem.compound/16046677> .
+
+<https://identifiers.org/chemspider/4582441>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Sulindac sulfone" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/MVGSNCBCUWPVDA-MFOYZWKCSA-N> ;
+        dc:identifier       <https://identifiers.org/chemspider/4582441> ;
+        dc:source           "Chemspider" ;
+        dcterms:identifier  "4582441" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2541_r117021> , <http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/id4bb9df15> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:64212> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/4582441> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/MVGSNCBCUWPVDA-MFOYZWKCSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5472495> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q5420370> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2541_r117021/DataNode/b80d4> ;
+        foaf:page           <http://www.chemspider.com/Chemical-Structure.4582441.html> .
+
+<https://identifiers.org/wikipathways/WP2541>
+        pav:hasVersion  <https://identifiers.org/wikipathways/WP2541_r117021> .
+
+<http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/id4bb9df15>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2541_r117021> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2541_r117021/Interaction/id4bb9df15> ;
+        wp:participants   <https://identifiers.org/chemspider/4582441> , <https://identifiers.org/pubchem.compound/16046677> ;
+        wp:source         <https://identifiers.org/pubchem.compound/16046677> ;
+        wp:target         <https://identifiers.org/chemspider/4582441> .
+
+<https://identifiers.org/ensembl/ENSRNOG00000019500>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "CYP1A1" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSRNOG00000019500> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSRNOG00000019500" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2541_r117021> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSRNOG00000019500> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24408002> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2541_r117021/DataNode/adfbb> ;
+        foaf:page           <https://www.ensembl.org/id/ENSRNOG00000019500> .
+
+<https://identifiers.org/wikipathways/WP2541_r117021>
+        rdf:type               wp:Pathway , skos:Collection ;
+        dc:identifier          <https://identifiers.org/wikipathways/WP2541> ;
+        dc:source              "WikiPathways" ;
+        dc:title               "Sulindac metabolic pathway"@en ;
+        dcterms:description    "Metabolism of sulindac involves various enzymes." ;
+        dcterms:identifier     "WP2541" ;
+        dcterms:references     <https://identifiers.org/pubmed/21383205> ;
+        cito:cites             <https://identifiers.org/pubmed/21383205> ;
+        wp:isAbout             <http://rdf.wikipathways.org/Pathway/WP2541_r117021> ;
+        wp:ontologyTag         <http://purl.obolibrary.org/obo/PW_0001229> , <http://purl.obolibrary.org/obo/PW_0000002> ;
+        wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_10116> ;
+        wp:organismName        "Rattus norvegicus" ;
+        wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0001229> , <http://purl.obolibrary.org/obo/PW_0000002> ;
+        foaf:page              <http://www.wikipathways.org/instance/WP2541_r117021> .
+
+<https://identifiers.org/interpro/IPR000960>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "FMO" ;
+        dc:identifier       <https://identifiers.org/interpro/IPR000960> ;
+        dc:source           "InterPro" ;
+        dcterms:identifier  "IPR000960" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/idd5b178a2> , <https://identifiers.org/wikipathways/WP2541_r117021> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2541_r117021/DataNode/ed228> ;
+        foaf:page           <http://www.ebi.ac.uk/interpro/DisplayIproEntry?ac=IPR000960> .
+
+<https://identifiers.org/ensembl/ENSRNOG00000012440>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "MsrA" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSRNOG00000012440> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSRNOG00000012440" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2541_r117021> , <http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/id1bc04a73> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSRNOG00000012440> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24395651> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2541_r117021/DataNode/e495e> ;
+        foaf:page           <https://www.ensembl.org/id/ENSRNOG00000012440> .
+
+<https://identifiers.org/pubchem.compound/16046677>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Sulindac-R" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/MLKXDPUZXIRXEP-LQVWSKNFSA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/16046677> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "16046677" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/id1d00538b> , <https://identifiers.org/wikipathways/WP2541_r117021> , <http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/id6412c6f1> , <http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/id4bb9df15> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/13175088> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/MLKXDPUZXIRXEP-LQVWSKNFSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID16046677> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27252593> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2541_r117021/DataNode/facbe> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=16046677> .
+
+<http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/idd5b178a2>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2541_r117021> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2541_r117021/Interaction/idd5b178a2> ;
+        wp:participants   <https://identifiers.org/interpro/IPR000960> , <http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/id1d00538b> ;
+        wp:source         <https://identifiers.org/interpro/IPR000960> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/id1d00538b> .
+
+<https://identifiers.org/ensembl/ENSRNOG00000016173>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "CYP1A2" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSRNOG00000016173> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSRNOG00000016173" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2541_r117021> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSRNOG00000016173> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24419310> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2541_r117021/DataNode/e312f> ;
+        foaf:page           <https://www.ensembl.org/id/ENSRNOG00000016173> .
+
+<https://identifiers.org/ensembl/ENSRNOG00000016873>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "MsrB2" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSRNOG00000016873> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSRNOG00000016873" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2541_r117021> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSRNOG00000016873> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24402441> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2541_r117021/DataNode/c2ce3> ;
+        foaf:page           <https://www.ensembl.org/id/ENSRNOG00000016873> .
+
+<https://identifiers.org/chemspider/4509492>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Sulindac sulfide" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/LFWHFZJPXXOYNR-MFOYZWKCSA-N> ;
+        dc:identifier       <https://identifiers.org/chemspider/4509492> ;
+        dc:source           "Chemspider" ;
+        dcterms:identifier  "4509492" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/id88e36fe3> , <http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/id6412c6f1> , <https://identifiers.org/wikipathways/WP2541_r117021> , <http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/id1d00538b> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:75408> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/4509492> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0060614> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/LFWHFZJPXXOYNR-MFOYZWKCSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5352624> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27145288> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2541_r117021/DataNode/a1f9f> ;
+        foaf:page           <http://www.chemspider.com/Chemical-Structure.4509492.html> .
+
+<https://identifiers.org/ensembl/ENSRNOG00000042668>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "MsrB3" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSRNOG00000042668> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSRNOG00000042668" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2541_r117021> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSRNOG00000042668> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24391867> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2541_r117021/DataNode/aff0a> ;
+        foaf:page           <https://www.ensembl.org/id/ENSRNOG00000042668> .
+
+<http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/id88e36fe3>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2541_r117021> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2541_r117021/Interaction/id88e36fe3> ;
+        wp:participants   <https://identifiers.org/chemspider/4509492> , <https://identifiers.org/pubchem.compound/11245227> ;
+        wp:source         <https://identifiers.org/pubchem.compound/11245227> ;
+        wp:target         <https://identifiers.org/chemspider/4509492> .
+
+<http://rdf.wikipathways.org/Pathway/WP2541_r117021/WP/Interaction/id6412c6f1>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2541_r117021> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2541_r117021/Interaction/id6412c6f1> ;
+        wp:participants   <https://identifiers.org/chemspider/4509492> , <https://identifiers.org/pubchem.compound/16046677> ;
+        wp:source         <https://identifiers.org/pubchem.compound/16046677> ;
+        wp:target         <https://identifiers.org/chemspider/4509492> .

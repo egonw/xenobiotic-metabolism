@@ -1,0 +1,167 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://doi.org/10.1016%2FS0006-2952%2896%2900693-4>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/S0006-2952(96)00693-4" .
+
+<https://identifiers.org/chemspider/264748>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "3DMC" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/JRRUSQGIRBEMRN-HNNXBMFYSA-N> ;
+        dc:identifier       <https://identifiers.org/chemspider/264748> ;
+        dc:source           "Chemspider" ;
+        dcterms:identifier  "264748" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2536_r117685> , <http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/id2b3f4a18> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/264748> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/JRRUSQGIRBEMRN-HNNXBMFYSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID299664> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27275337> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2536_r117685/DataNode/d4a9d> ;
+        foaf:page           <http://www.chemspider.com/Chemical-Structure.264748.html> .
+
+<https://identifiers.org/wikipathways/WP2536>
+        pav:hasVersion  <https://identifiers.org/wikipathways/WP2536_r117685> .
+
+<https://identifiers.org/wikipathways/WP2536_r117685>
+        rdf:type               skos:Collection , wp:Pathway ;
+        dc:identifier          <https://identifiers.org/wikipathways/WP2536> ;
+        dc:source              "WikiPathways" ;
+        dc:title               "Colchicine metabolic pathway"@en ;
+        dcterms:description    "P450-mediated biotransformation pathway of colchicine with the CYP3A4, while colchicine inhibits the expression of this enzyme." ;
+        dcterms:identifier     "WP2536" ;
+        dcterms:references     <https://identifiers.org/pubmed/12815172> , <https://identifiers.org/pubmed/8960070> ;
+        cito:cites             <https://identifiers.org/pubmed/12815172> , <https://identifiers.org/pubmed/8960070> ;
+        wp:isAbout             <http://rdf.wikipathways.org/Pathway/WP2536_r117685> ;
+        wp:ontologyTag         <http://purl.obolibrary.org/obo/PW_0001229> , <http://purl.obolibrary.org/obo/PW_0000375> ;
+        wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName        "Homo sapiens" ;
+        wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0001229> , <http://purl.obolibrary.org/obo/PW_0000375> ;
+        foaf:page              <http://www.wikipathways.org/instance/WP2536_r117685> .
+
+<https://identifiers.org/chemspider/22210>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "2DMC" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/DPOVAJCRYIUTBD-HNNXBMFYSA-N> ;
+        dc:identifier       <https://identifiers.org/chemspider/22210> ;
+        dc:source           "Chemspider" ;
+        dcterms:identifier  "22210" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/b7125> , <https://identifiers.org/wikipathways/WP2536_r117685> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/22210> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/DPOVAJCRYIUTBD-HNNXBMFYSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23757> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27291711> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2536_r117685/DataNode/d406b> ;
+        foaf:page           <http://www.chemspider.com/Chemical-Structure.22210.html> .
+
+<https://identifiers.org/pubmed/12815172>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "12815172" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/id64989c5> , <https://identifiers.org/wikipathways/WP2536_r117685> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27863320> ;
+        owl:sameAs          <https://doi.org/10.1124%2FMOL.64.1.160> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/12815172> .
+
+<http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/id2b3f4a18>
+        rdf:type            wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2536_r117685> ;
+        dcterms:references  <https://identifiers.org/pubmed/8960070> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2536_r117685/Interaction/id2b3f4a18> ;
+        wp:participants     <https://identifiers.org/chemspider/264748> , <https://identifiers.org/chemspider/5933> ;
+        wp:source           <https://identifiers.org/chemspider/5933> ;
+        wp:target           <https://identifiers.org/chemspider/264748> .
+
+<https://identifiers.org/pubmed/8960070>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "8960070" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/b7125> , <http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/id2b3f4a18> , <https://identifiers.org/wikipathways/WP2536_r117685> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27863445> ;
+        owl:sameAs          <https://doi.org/10.1016%2FS0006-2952%2896%2900693-4> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/8960070> .
+
+<https://doi.org/10.1124%2FMOL.64.1.160>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1124/MOL.64.1.160" .
+
+<http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/iddb8622d1>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2536_r117685> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2536_r117685/Interaction/iddb8622d1> ;
+        wp:participants   <https://identifiers.org/uniprot/P08684> , <http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/id2b3f4a18> ;
+        wp:source         <https://identifiers.org/uniprot/P08684> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/id2b3f4a18> .
+
+<http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/fbf4e>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2536_r117685> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2536_r117685/Interaction/fbf4e> ;
+        wp:participants   <https://identifiers.org/uniprot/P08684> , <http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/b7125> ;
+        wp:source         <https://identifiers.org/uniprot/P08684> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/b7125> .
+
+<http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/b7125>
+        rdf:type            wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2536_r117685> ;
+        dcterms:references  <https://identifiers.org/pubmed/8960070> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2536_r117685/Interaction/b7125> ;
+        wp:participants     <https://identifiers.org/chemspider/22210> , <https://identifiers.org/chemspider/5933> ;
+        wp:source           <https://identifiers.org/chemspider/5933> ;
+        wp:target           <https://identifiers.org/chemspider/22210> .
+
+<http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/id64989c5>
+        rdf:type            wp:Interaction , wp:Inhibition , wp:DirectedInteraction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2536_r117685> ;
+        dcterms:references  <https://identifiers.org/pubmed/12815172> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2536_r117685/Interaction/id64989c5> ;
+        wp:participants     <https://identifiers.org/uniprot/P08684> , <https://identifiers.org/chemspider/5933> ;
+        wp:source           <https://identifiers.org/chemspider/5933> ;
+        wp:target           <https://identifiers.org/uniprot/P08684> .
+
+<https://identifiers.org/uniprot/P08684>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "CYP3A4" ;
+        dc:identifier       <https://identifiers.org/uniprot/P08684> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "P08684" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/iddb8622d1> , <http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/id64989c5> , <https://identifiers.org/wikipathways/WP2536_r117685> , <http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/fbf4e> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000160868> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/1576> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CYP3A4> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/A0A499FJM4> , <https://identifiers.org/uniprot/P08684> , <https://identifiers.org/uniprot/E7EVM8> , <https://identifiers.org/uniprot/A0A494C0W7> , <https://identifiers.org/uniprot/Q6GRK0> , <https://identifiers.org/uniprot/C9JBD2> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2536_r117685/DataNode/ff780> ;
+        foaf:page           <http://www.uniprot.org/uniprot/P08684> .
+
+<https://identifiers.org/chemspider/5933>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Colchicine" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/IAKHMKGGTNLKSZ-INIZCTEOSA-N> ;
+        dc:identifier       <https://identifiers.org/chemspider/5933> ;
+        dc:source           "Chemspider" ;
+        dcterms:identifier  "5933" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/id2b3f4a18> , <http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/b7125> , <https://identifiers.org/wikipathways/WP2536_r117685> , <http://rdf.wikipathways.org/Pathway/WP2536_r117685/WP/Interaction/id64989c5> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:27882> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/2731> , <https://identifiers.org/chemspider/5933> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0015466> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/IAKHMKGGTNLKSZ-INIZCTEOSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C07592> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6167> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q326224> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2536_r117685/DataNode/c6ebc> ;
+        foaf:page           <http://www.chemspider.com/Chemical-Structure.5933.html> .

@@ -1,0 +1,275 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/idf950b039>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2491_r117698> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2491_r117698/Interaction/idf950b039> ;
+        wp:participants   <https://identifiers.org/pubchem.compound/3052567> , <https://identifiers.org/pubchem.compound/3052566> ;
+        wp:source         <https://identifiers.org/pubchem.compound/3052566> ;
+        wp:target         <https://identifiers.org/pubchem.compound/3052567> .
+
+<https://identifiers.org/wikipathways/WP2491>
+        pav:hasVersion  <https://identifiers.org/wikipathways/WP2491_r117698> .
+
+<https://identifiers.org/pubchem.compound/112230>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "3'-Hydroxydiclofenac" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/HYPJZSYXUWYJDG-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/112230> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "112230" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/id101e6313> , <https://identifiers.org/wikipathways/WP2491_r117698> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:223792> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/100604> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0013976> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/HYPJZSYXUWYJDG-UHFFFAOYSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID112230> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27225706> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2491_r117698/DataNode/dd575> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=112230> .
+
+<https://identifiers.org/uniprot/P10632>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "CYP2C8" ;
+        dc:identifier       <https://identifiers.org/uniprot/P10632> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "P10632" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2491_r117698> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000138115> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/1558> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CYP2C8> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/P10632> , <https://identifiers.org/uniprot/E9PLI9> , <https://identifiers.org/uniprot/A0A0D9SG51> , <https://identifiers.org/uniprot/E9PIW6> , <https://identifiers.org/uniprot/B7Z1F5> , <https://identifiers.org/uniprot/G3V188> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2491_r117698/DataNode/c820a> ;
+        foaf:page           <http://www.uniprot.org/uniprot/P10632> .
+
+<http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/idfdcd0f07>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2491_r117698> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2491_r117698/Interaction/idfdcd0f07> ;
+        wp:participants   <https://identifiers.org/uniprot/P20813> , <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/idf27d9fd4> ;
+        wp:source         <https://identifiers.org/uniprot/P20813> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/idf27d9fd4> .
+
+<https://identifiers.org/uniprot/P33260>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "CYP2C18" ;
+        dc:identifier       <https://identifiers.org/uniprot/P33260> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "P33260" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2491_r117698> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000108242> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/1562> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CYP2C18> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/P33260> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2491_r117698/DataNode/d1021> ;
+        foaf:page           <http://www.uniprot.org/uniprot/P33260> .
+
+<https://identifiers.org/pubchem.compound/116545>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "4'-hydroxydiclofenac" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/KGVXVPRLBMWZLG-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/116545> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "116545" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/id8da001ed> , <https://identifiers.org/wikipathways/WP2491_r117698> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:59613> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/104192> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0013974> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/KGVXVPRLBMWZLG-UHFFFAOYSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID116545> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26690136> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2491_r117698/DataNode/d0dce> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=116545> .
+
+<https://identifiers.org/pubchem.compound/3052567>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "4',5-Dihydroxydiclofenac" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/DRZFITWJHHNHAD-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/3052567> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "3052567" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/idf950b039> , <https://identifiers.org/wikipathways/WP2491_r117698> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:223401> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/2314363> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/DRZFITWJHHNHAD-UHFFFAOYSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3052567> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27225704> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2491_r117698/DataNode/fed6d> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=3052567> .
+
+<http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/ide4de82d6>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2491_r117698> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2491_r117698/Interaction/ide4de82d6> ;
+        wp:participants   <https://identifiers.org/uniprot/Q6IRV8> , <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/id8da001ed> ;
+        wp:source         <https://identifiers.org/uniprot/Q6IRV8> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/id8da001ed> .
+
+<https://identifiers.org/pubchem.compound/3052566>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "5-hydroxydiclofenac" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/VNQURRWYKFZKJZ-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/3052566> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "3052566" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/id206a96dc> , <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/idf950b039> , <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/idf27d9fd4> , <https://identifiers.org/wikipathways/WP2491_r117698> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:59612> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/2314362> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0060542> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/VNQURRWYKFZKJZ-UHFFFAOYSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3052566> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27126805> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2491_r117698/DataNode/c0ffe> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=3052566> .
+
+<https://identifiers.org/uniprot/P20813>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "CYP2B6" ;
+        dc:identifier       <https://identifiers.org/uniprot/P20813> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "P20813" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/idfdcd0f07> , <https://identifiers.org/wikipathways/WP2491_r117698> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000197408> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/1555> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CYP2B6> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/P20813> , <https://identifiers.org/uniprot/A0A2R8YFA4> , <https://identifiers.org/uniprot/M0QZJ2> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2491_r117698/DataNode/bc661> ;
+        foaf:page           <http://www.uniprot.org/uniprot/P20813> .
+
+<https://identifiers.org/pubmed/10449188>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "10449188" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2491_r117698> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/10449188> .
+
+<http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/idf27d9fd4>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2491_r117698> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2491_r117698/Interaction/idf27d9fd4> ;
+        wp:participants   <https://identifiers.org/pubchem.compound/3052566> , <https://identifiers.org/pubchem.compound/3033> ;
+        wp:source         <https://identifiers.org/pubchem.compound/3033> ;
+        wp:target         <https://identifiers.org/pubchem.compound/3052566> .
+
+<http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/id8770e4e5>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2491_r117698> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2491_r117698/Interaction/id8770e4e5> ;
+        wp:participants   <https://identifiers.org/uniprot/Q6IRV8> , <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/id101e6313> ;
+        wp:source         <https://identifiers.org/uniprot/Q6IRV8> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/id101e6313> .
+
+<http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/id8da001ed>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2491_r117698> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2491_r117698/Interaction/id8da001ed> ;
+        wp:participants   <https://identifiers.org/pubchem.compound/116545> , <https://identifiers.org/pubchem.compound/3033> ;
+        wp:source         <https://identifiers.org/pubchem.compound/3033> ;
+        wp:target         <https://identifiers.org/pubchem.compound/116545> .
+
+<http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/id101e6313>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2491_r117698> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2491_r117698/Interaction/id101e6313> ;
+        wp:participants   <https://identifiers.org/pubchem.compound/112230> , <https://identifiers.org/pubchem.compound/3033> ;
+        wp:source         <https://identifiers.org/pubchem.compound/3033> ;
+        wp:target         <https://identifiers.org/pubchem.compound/112230> .
+
+<https://identifiers.org/wikipathways/WP2491_r117698>
+        rdf:type               skos:Collection , wp:Pathway ;
+        dc:identifier          <https://identifiers.org/wikipathways/WP2491> ;
+        dc:source              "WikiPathways" ;
+        dc:title               "Diclofenac metabolic pathway"@en ;
+        dcterms:description    "CYP metabolism of the diclofenac drug (a NSAID), commonly used to treat pain and inflammatory diseases." ;
+        dcterms:identifier     "WP2491" ;
+        dcterms:references     <https://identifiers.org/pubmed/10449188> ;
+        cito:cites             <https://identifiers.org/pubmed/10449188> ;
+        wp:diseaseOntologyTag  <http://purl.obolibrary.org/obo/DOID_4> ;
+        wp:isAbout             <http://rdf.wikipathways.org/Pathway/WP2491_r117698> ;
+        wp:ontologyTag         <http://purl.obolibrary.org/obo/DOID_4> , <http://purl.obolibrary.org/obo/PW_0001229> , <http://purl.obolibrary.org/obo/PW_0000375> ;
+        wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName        "Homo sapiens" ;
+        wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0000375> , <http://purl.obolibrary.org/obo/PW_0001229> ;
+        foaf:page              <http://www.wikipathways.org/instance/WP2491_r117698> .
+
+<http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/id206a96dc>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2491_r117698> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2491_r117698/Interaction/id206a96dc> ;
+        wp:participants   <https://identifiers.org/pubchem.compound/10065052> , <https://identifiers.org/pubchem.compound/3052566> ;
+        wp:source         <https://identifiers.org/pubchem.compound/3052566> ;
+        wp:target         <https://identifiers.org/pubchem.compound/10065052> .
+
+<https://identifiers.org/pubchem.compound/10065052>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Metabolite" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/KPXTUWFWKOJDLM-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/10065052> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "10065052" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2491_r117698> , <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/id206a96dc> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/8240592> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/KPXTUWFWKOJDLM-UHFFFAOYSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID10065052> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26998370> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2491_r117698/DataNode/b876b> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=10065052> .
+
+<https://identifiers.org/uniprot/Q6IRV8>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "CYP2C9" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q6IRV8> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q6IRV8" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2491_r117698> , <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/ide4de82d6> , <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/id8770e4e5> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q6IRV8> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2491_r117698/DataNode/f35cf> , <http://rdf.wikipathways.org/Pathway/WP2491_r117698/DataNode/cdda7> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q6IRV8> .
+
+<https://identifiers.org/pubchem.compound/3033>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "diclofenac" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/DCOPUUMXTXDBNB-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/3033> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "3033" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/id8da001ed> , <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/idf27d9fd4> , <http://rdf.wikipathways.org/Pathway/WP2491_r117698/WP/Interaction/id101e6313> , <https://identifiers.org/wikipathways/WP2491_r117698> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:47381> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/2925> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0014724> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/DCOPUUMXTXDBNB-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C01690> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3033> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q244408> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2491_r117698/DataNode/e8252> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=3033> .
+
+<https://identifiers.org/uniprot/P33261>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "CYP2C19" ;
+        dc:identifier       <https://identifiers.org/uniprot/P33261> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "P33261" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2491_r117698> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000165841> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/1557> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CYP2C19> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/A0A087X125> , <https://identifiers.org/uniprot/P33261> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2491_r117698/DataNode/e7aad> ;
+        foaf:page           <http://www.uniprot.org/uniprot/P33261> .

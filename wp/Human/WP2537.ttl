@@ -1,0 +1,156 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://identifiers.org/pubchem.compound/14130340>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "DAM-S" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/LRIPVTHVRNJTHW-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/14130340> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "14130340" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2537_r117797/WP/Interaction/idb1b54e66> , <https://identifiers.org/wikipathways/WP2537_r117797> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/LRIPVTHVRNJTHW-UHFFFAOYSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID14130340> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50318235> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2537_r117797/DataNode/fd317> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=14130340> .
+
+<http://rdf.wikipathways.org/Pathway/WP2537_r117797/WP/Interaction/idaef50174>
+        rdf:type          wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2537_r117797> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2537_r117797/Interaction/idaef50174> ;
+        wp:participants   <https://identifiers.org/pubchem.compound/51678> , <https://identifiers.org/pubchem.compound/28093> ;
+        wp:source         <https://identifiers.org/pubchem.compound/28093> ;
+        wp:target         <https://identifiers.org/pubchem.compound/51678> .
+
+<https://identifiers.org/pubchem.compound/4260>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Moxisylyte" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/VRYMTAVOXVTQEF-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/4260> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "4260" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2537_r117797> , <http://rdf.wikipathways.org/Pathway/WP2537_r117797/WP/Interaction/id2c31d3f6> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:94754> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/4110> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0254909> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/VRYMTAVOXVTQEF-UHFFFAOYSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID4260> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q646045> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2537_r117797/DataNode/eb5fc> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=4260> .
+
+<http://rdf.wikipathways.org/Pathway/WP2537_r117797/WP/Interaction/idb1b54e66>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2537_r117797> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2537_r117797/Interaction/idb1b54e66> ;
+        wp:participants   <https://identifiers.org/pubchem.compound/14130340> , <https://identifiers.org/pubchem.compound/28093> ;
+        wp:source         <https://identifiers.org/pubchem.compound/28093> ;
+        wp:target         <https://identifiers.org/pubchem.compound/14130340> .
+
+<https://identifiers.org/wikipathways/WP2537_r117797>
+        rdf:type               skos:Collection , wp:Pathway ;
+        dc:identifier          <https://identifiers.org/wikipathways/WP2537> ;
+        dc:source              "WikiPathways" ;
+        dc:title               "Moxicylyte metabolic pathway"@en ;
+        dcterms:description    "Metabolism pathway of moxicylyte as it is observed in man, dog, cat, and rat." ;
+        dcterms:identifier     "WP2537" ;
+        dcterms:references     <https://identifiers.org/pubmed/2931278> , <https://identifiers.org/pubmed/9711459> ;
+        cito:cites             <https://identifiers.org/pubmed/2931278> , <https://identifiers.org/pubmed/9711459> ;
+        wp:isAbout             <http://rdf.wikipathways.org/Pathway/WP2537_r117797> ;
+        wp:ontologyTag         <http://purl.obolibrary.org/obo/PW_0000124> , <http://purl.obolibrary.org/obo/PW_0001229> ;
+        wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName        "Homo sapiens" ;
+        wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0001229> , <http://purl.obolibrary.org/obo/PW_0000124> ;
+        foaf:page              <http://www.wikipathways.org/instance/WP2537_r117797> .
+
+<https://identifiers.org/wikipathways/WP2537>
+        pav:hasVersion  <https://identifiers.org/wikipathways/WP2537_r117797> .
+
+<https://identifiers.org/pubchem.compound/28093>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "DAM" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/HJGRPZCEBPNMDU-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/28093> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "28093" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2537_r117797/WP/Interaction/idb1b54e66> , <http://rdf.wikipathways.org/Pathway/WP2537_r117797/WP/Interaction/id2c31d3f6> , <http://rdf.wikipathways.org/Pathway/WP2537_r117797/WP/Interaction/idaef50174> , <https://identifiers.org/wikipathways/WP2537_r117797> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/HJGRPZCEBPNMDU-UHFFFAOYSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID28093> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50318258> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2537_r117797/DataNode/dc093> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=28093> .
+
+<http://rdf.wikipathways.org/Pathway/WP2537_r117797/WP/Interaction/id2c31d3f6>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2537_r117797> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2537_r117797/Interaction/id2c31d3f6> ;
+        wp:participants   <https://identifiers.org/pubchem.compound/28093> , <https://identifiers.org/pubchem.compound/4260> ;
+        wp:source         <https://identifiers.org/pubchem.compound/4260> ;
+        wp:target         <https://identifiers.org/pubchem.compound/28093> .
+
+<https://identifiers.org/chemspider/29273477>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "MDAM-S" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/JEYCUVVYSALDCX-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/chemspider/29273477> ;
+        dc:source           "Chemspider" ;
+        dcterms:identifier  "29273477" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2537_r117797/WP/Interaction/id4aa10a34> , <https://identifiers.org/wikipathways/WP2537_r117797> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/29273477> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/JEYCUVVYSALDCX-UHFFFAOYSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID71652152> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q59851504> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2537_r117797/DataNode/b5149> ;
+        foaf:page           <http://www.chemspider.com/Chemical-Structure.29273477.html> .
+
+<http://rdf.wikipathways.org/Pathway/WP2537_r117797/WP/Interaction/id4aa10a34>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2537_r117797> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2537_r117797/Interaction/id4aa10a34> ;
+        wp:participants   <https://identifiers.org/chemspider/29273477> , <https://identifiers.org/pubchem.compound/51678> ;
+        wp:source         <https://identifiers.org/pubchem.compound/51678> ;
+        wp:target         <https://identifiers.org/chemspider/29273477> .
+
+<https://identifiers.org/pubchem.compound/51678>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "MDAM" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/GOHVWKGLNUZCRK-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/51678> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "51678" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2537_r117797/WP/Interaction/id4aa10a34> , <https://identifiers.org/wikipathways/WP2537_r117797> , <http://rdf.wikipathways.org/Pathway/WP2537_r117797/WP/Interaction/idaef50174> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/GOHVWKGLNUZCRK-UHFFFAOYSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID51678> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50318260> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2537_r117797/DataNode/bfa1d> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=51678> .
+
+<https://identifiers.org/pubmed/2931278>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "2931278" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2537_r117797> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/2931278> .
+
+<https://identifiers.org/pubmed/9711459>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "9711459" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2537_r117797> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/9711459> .

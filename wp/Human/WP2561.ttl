@@ -1,0 +1,108 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://identifiers.org/pubchem.compound/9577331>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "5-hydroxy-dantrolene" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/PGORTQZSSAZLCK-VIZOYTHASA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/9577331> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "9577331" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2561_r117869> , <http://rdf.wikipathways.org/Pathway/WP2561_r117869/WP/Interaction/idf3996bb2> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:174443> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/7851768> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0060776> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/PGORTQZSSAZLCK-VIZOYTHASA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID9577331> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27294415> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2561_r117869/DataNode/b3ba0> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=9577331> .
+
+<https://identifiers.org/pubmed/6723545>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "6723545" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP2561_r117869> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/6723545> .
+
+<https://identifiers.org/pubchem.compound/6914273>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Dantrolene" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/OZOMQRBLCMDCEG-UHFFFAOYSA-N> , <https://identifiers.org/inchikey/OZOMQRBLCMDCEG-VIZOYTHASA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/6914273> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "6914273" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2561_r117869/WP/Interaction/idf3996bb2> , <https://identifiers.org/wikipathways/WP2561_r117869> , <http://rdf.wikipathways.org/Pathway/WP2561_r117869/WP/Interaction/ideb1cdb84> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:4317> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/5290202> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0015350> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/OZOMQRBLCMDCEG-UHFFFAOYSA-N> , <https://identifiers.org/inchikey/OZOMQRBLCMDCEG-VIZOYTHASA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C06939> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6914273> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q101423457> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2561_r117869/DataNode/d92a8> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=6914273> .
+
+<https://identifiers.org/wikipathways/WP2561_r117869>
+        rdf:type               skos:Collection , wp:Pathway ;
+        dc:identifier          <https://identifiers.org/wikipathways/WP2561> ;
+        dc:source              "WikiPathways" ;
+        dc:title               "Dantrolene metabolic pathway"@en ;
+        dcterms:identifier     "WP2561" ;
+        dcterms:references     <https://identifiers.org/pubmed/6723545> ;
+        cito:cites             <https://identifiers.org/pubmed/6723545> ;
+        wp:isAbout             <http://rdf.wikipathways.org/Pathway/WP2561_r117869> ;
+        wp:ontologyTag         <http://purl.obolibrary.org/obo/PW_0000124> , <http://purl.obolibrary.org/obo/PW_0001229> ;
+        wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+        wp:organismName        "Mus musculus" ;
+        wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0000124> , <http://purl.obolibrary.org/obo/PW_0001229> ;
+        foaf:page              <http://www.wikipathways.org/instance/WP2561_r117869> .
+
+<https://identifiers.org/wikipathways/WP2561>
+        pav:hasVersion  <https://identifiers.org/wikipathways/WP2561_r117869> .
+
+<http://rdf.wikipathways.org/Pathway/WP2561_r117869/WP/Interaction/idf3996bb2>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2561_r117869> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2561_r117869/Interaction/idf3996bb2> ;
+        wp:participants   <https://identifiers.org/pubchem.compound/9577331> , <https://identifiers.org/pubchem.compound/6914273> ;
+        wp:source         <https://identifiers.org/pubchem.compound/6914273> ;
+        wp:target         <https://identifiers.org/pubchem.compound/9577331> .
+
+<https://identifiers.org/pubchem.compound/9570289>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "aminodantrolene" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/UXUTWFLSENWVIM-FRKPEAEDSA-N> ;
+        dc:identifier       <https://identifiers.org/pubchem.compound/9570289> ;
+        dc:source           "PubChem-compound" ;
+        dcterms:identifier  "9570289" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP2561_r117869/WP/Interaction/ideb1cdb84> , <https://identifiers.org/wikipathways/WP2561_r117869> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/7844756> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/UXUTWFLSENWVIM-FRKPEAEDSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID9570289> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27287997> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP2561_r117869/DataNode/b6298> ;
+        foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=9570289> .
+
+<http://rdf.wikipathways.org/Pathway/WP2561_r117869/WP/Interaction/ideb1cdb84>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP2561_r117869> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP2561_r117869/Interaction/ideb1cdb84> ;
+        wp:participants   <https://identifiers.org/pubchem.compound/9570289> , <https://identifiers.org/pubchem.compound/6914273> ;
+        wp:source         <https://identifiers.org/pubchem.compound/6914273> ;
+        wp:target         <https://identifiers.org/pubchem.compound/9570289> .
