@@ -1,0 +1,5 @@
+CYP metabolism of the diclofenac drug (a NSAID), commonly used to treat pain and inflammatory diseases.
+Metabolic Process
+
+[BiopaxReference:bf5]	Biopax publication doesn't exist.
+[BiopaxReference:bf5]	Biopax publication doesn't exist.

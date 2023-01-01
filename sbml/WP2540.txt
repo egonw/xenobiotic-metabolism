@@ -1,0 +1,5 @@
+
+[STIMULATION:id31009]	Invalid interaction type.
+[STIMULATION:idf7039341]	Invalid interaction type.
+[STIMULATION:id31010]	Invalid interaction type.
+[ReducedPhysicalStimulationReaction:id31010]	Reaction should contain only one reactant and one product.

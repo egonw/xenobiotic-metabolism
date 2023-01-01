@@ -1,0 +1,3 @@
+The CYP P450 metabolism of aripiprazole has been studied and described in several papers (like the one in the bibliography), except for the original primary literature describing the experiments and the exact metabolite structures. The two CYPs are said to be involved in N-dealkylation and dehydrogenation. 
+
+[-:-]	This database type is not implemented yet: XMetDB; resource: XMETDB172
