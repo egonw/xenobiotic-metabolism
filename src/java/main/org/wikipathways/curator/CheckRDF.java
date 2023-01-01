@@ -35,7 +35,7 @@ public class CheckRDF {
         report.println("<img style=\"float: right; width: 200px\" src=\"../logo.png\" />");
 
         report.println("# WikiPathways " + wpid + "\n");
-        report.println("* WikiPathways: [" + wpid + "](https://identifiers.org/wikipathways:" + wpid + ")");
+        report.println("* WikiPathways: [" + wpid + "](https://new.wikipathways.org/instance/" + wpid + ") ([edit](https://identifiers.org/wikipathways:" + wpid + "))");
         report.println("* Scholia: [" + wpid + "](https://scholia.toolforge.org/wikipathways/" + wpid + ")");
         report.println("* WPRDF file: [" + wpFile + "](../" + wpFile + ")");
         report.println("* GPMLRDF file: [" + gpmlFile + "](../" + gpmlFile + ")");
