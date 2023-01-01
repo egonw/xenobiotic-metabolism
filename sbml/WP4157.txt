@@ -1,0 +1,51 @@
+Gamma-Hydroxybutyric acid (GHB) is a naturally occurring neurotransmitter and a psychoactive drug. This compound is a precursor to GABA, glutamate, and glycine in certain brain areas, acts on the GHB receptor and is a weak agonist at the GABAB receptor.
+GHB has been used in a medical setting as a general anesthetic and as a treatment for cataplexy, narcolepsy, and alcoholism. It is also used illegally as an intoxicant, to try to increase athletic performance, and as a date rape drug. GHB is also produced as a result of fermentation, and is found in small quantities in some beers and wines, beef and small citrus fruits. Succinic semialdehyde dehydrogenase deficiency is a disease that causes GHB to accumulate in the blood.
+
+Part of this pathway was inspired by Edition 5, Chapter 24 (Fig.24.2) of the book of Blau (ISBN 9783030677268) (Ed.4 Chapter 5, Fig. 5.3).
+
+
+[CONVERSION:e1af7]	Interaction is not connected
+[ARROW:a924d]	Invalid interaction type "ARROW" as an output from reaction.
+[ARROW:f0f27]	Invalid interaction type "ARROW" as an output from reaction.
+[CATALYSIS:a7fa0]	Interaction edge is invalid (one end is not connected).
+[ARROW:a3eec]	Invalid interaction type "ARROW" as an output from reaction.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[Label:c49ff]	 Label cannot be part of reaction. Tranforming to Unknown
+[Label:ca66b]	 Label cannot be part of reaction. Tranforming to Unknown
+[Label:abc76]	 Label cannot be part of reaction. Tranforming to Unknown
+[Label:b24f0]	 Label cannot be part of reaction. Tranforming to Unknown
+[Label:d9556]	 Label cannot be part of reaction. Tranforming to Unknown
+[BiopaxReference:a77]	Publication type is not supported.
+[-:-]	Miriam data (PUBMED: 16483879) for aae62 already exists. Ignoring...
+[-:-]	Miriam data (PUBMED: 16483879) for aae62 already exists. Ignoring...
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[-:-]	Miriam data (PUBMED: 34244591) for f5e74 already exists. Ignoring...
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[BiopaxReference:a77]	Publication type is not supported.
+[UnknownPositiveInfluenceReaction:e3093]	Reacion was marked as reversible but it cannot be reversible
+[UnknownPositiveInfluenceReaction:e3093]	Reaction should contain only one reactant and one product.
+[BiopaxReference:a77]	Publication type is not supported.

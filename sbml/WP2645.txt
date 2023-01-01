@@ -1,0 +1,3 @@
+Pathway complementing the morphine metabolism pathway around heroin. The catalytic efficiency is substantially greater for CES2 (a.k.a. hCE-2) compared to other esterases.
+
+[-:-]	Miriam data (PUBMED: 16778732) for id3ad34204 already exists. Ignoring...

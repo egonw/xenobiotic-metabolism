@@ -1,0 +1,9 @@
+
+Based on http://pathway.yeastgenome.org/biocyc/
+Metabolic Process
+
+[ARROW:idba53eb25]	Interaction is not connected
+[ARROW:idfeaa5475]	Interaction is not connected
+[ARROW:idfef4e556]	Interaction is not connected
+[ARROW:idb7dbc2dc]	Interaction is not connected
+[ARROW:iddcf76985]	Interaction is not connected

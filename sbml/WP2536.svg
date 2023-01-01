@@ -8,10 +8,6 @@
   /><g
   ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
     ><rect x="-1" width="770" height="444" y="-1" stroke="none"
-      /><path fill="none" d="M165 121 L176.0395 146.9004" stroke="black"
-      /><path fill="none" d="M179.9605 156.0996 L189.8237 179.2402" stroke="black"
-      /><line y2="177.2797" fill="none" x1="185.2241" x2="194.4233" stroke="black" y1="181.2007"
-      /><line y2="146.9004" fill="none" x1="179.9605" x2="176.0395" stroke="black" y1="156.0996"
       /><path fill="none" d="M185 111 L206 111" stroke="black"
       /><path fill="none" d="M216 111 L270 111" stroke="black"
       /><path fill="black" d="M256.1418 116.7402 L270 111 L256.1418 105.2598 Z" stroke="none"
@@ -24,7 +20,11 @@
     ><g font-size="10px" text-rendering="geometricPrecision" image-rendering="optimizeQuality" color-rendering="optimizeQuality" font-family="sans-serif" color-interpolation="linearRGB" font-weight="bold"
     ><text x="211" xml:space="preserve" y="115" stroke="none"
       ></text
-    ></g
+      ><path fill="none" d="M165 121 L176.0395 146.9004"
+      /><path fill="none" d="M179.9605 156.0996 L189.8237 179.2402"
+      /><line y2="177.2797" fill="none" x1="185.2241" x2="194.4233" y1="181.2007"
+      /><line y2="146.9004" fill="none" x1="179.9605" x2="176.0395" y1="156.0996"
+    /></g
     ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
     ><ellipse rx="40" ry="10" cx="310" cy="111" stroke="none"
       /><ellipse rx="40" fill="none" ry="10" cx="310" cy="111" stroke="blue"

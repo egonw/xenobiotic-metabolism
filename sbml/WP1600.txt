@@ -1,0 +1,40 @@
+Nicotine results in many metabolites after metabolization in the liver. 
+Nicotine is the main factor behind smoking addiction, therefore nicotine supplements can be used to stop smoking. 
+
+Nicotine is metabolized by several enzymes in the liver such as the CYP2A6 enzyme.
+CYP2A6 is a xenobiotic (xenos = foreigner, bios = life) metabolizer. 
+
+How well nicotine can be metabolized by the human body is not standard and depends on racial, gender, genetic and environmental factors.  
+The cotinine metabolite seen above in the center of the nicotine metabolism pathway is a smoking biomarker and can been measured in various tissues such as blood, urine and sweat.
+Metabolic Process
+
+[CONVERSION:id7c70628e]	Curved connections are not supported.
+[CONVERSION:id9d06dec1]	Curved connections are not supported.
+[CONVERSION:ida07b9435]	Curved connections are not supported.
+[CONVERSION:ida830b2a7]	Curved connections are not supported.
+[CONVERSION:ida840ab26]	Curved connections are not supported.
+[CONVERSION:idf76e3d2e]	Curved connections are not supported.
+[-:-]	Unknown gpml interaction type: mim-translocation
+[LINE:id31efe745]	Curved connections are not supported.
+[-:-]	Unknown gpml interaction type: mim-translocation
+[LINE:id1e624d4b]	Curved connections are not supported.
+[-:-]	Unknown gpml interaction type: mim-translocation
+[LINE:id29d07d3f]	Curved connections are not supported.
+[ARROW:idc005334f]	Curved connections are not supported.
+[-:-]	Unknown gpml interaction type: mim-translocation
+[-:-]	Unknown gpml interaction type: mim-translocation
+[ARROW:id8d074529]	Curved connections are not supported.
+[-:-]	Unknown gpml interaction type: mim-translocation
+[-:-]	Unknown gpml interaction type: mim-translocation
+[-:-]	Unknown gpml interaction type: mim-translocation
+[-:-]	Unknown gpml interaction type: mim-translocation
+[LINE:id93f790b3]	Curved connections are not supported.
+[LINE:id1e624d4b]	Invalid interaction type.
+[LINE:idb0961cc3]	Invalid interaction type.
+[LINE:ide65566fe]	Invalid interaction type.
+[LINE:id31efe745]	Invalid interaction type.
+[LINE:id93f790b3]	Invalid interaction type.
+[LINE:id29d07d3f]	Invalid interaction type.
+[LINE:idd5891279]	Invalid interaction type.
+[LINE:id92b39cf9]	Invalid interaction type.
+[LINE:id897f2ea7]	Invalid interaction type.

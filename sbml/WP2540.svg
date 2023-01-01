@@ -8,6 +8,18 @@
   /><g
   ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
     ><rect x="-1" width="717" height="382" y="-1" stroke="none"
+      /><path fill="none" d="M372.5 242 L372.6069 271.5" stroke="black"
+      /><path fill="none" d="M372.6431 281.5 L372.75 311" stroke="black"
+      /><path d="M372.75 311 L366.9596 297.1627 L378.44 297.1211 Z" stroke="none"
+      /><path fill="none" d="M372.75 311 L366.9596 297.1627 L378.44 297.1211 Z" stroke="black"
+      /><path fill="none" d="M372.6069 271.5 L372.6069 271.5" stroke="black"
+      /><path fill="none" d="M372.6431 281.5 L372.6431 281.5" stroke="black"
+      /><line y2="271.5" fill="none" x1="372.6431" x2="372.6069" stroke="black" y1="281.5"
+      /><path fill="none" d="M278.25 242 L278.25 272.5" stroke="black"
+      /><path fill="none" d="M278.25 282.5 L278.25 313" stroke="black"
+      /><path d="M278.25 313 L272.5097 299.1418 L283.9903 299.1418 Z" stroke="none"
+      /><path fill="none" d="M278.25 313 L272.5097 299.1418 L283.9903 299.1418 Z" stroke="black"
+      /><line y2="272.5" fill="none" x1="278.25" x2="278.25" stroke="black" y1="282.5"
       /><path fill="none" d="M224 214 L211.3975 189.6409" stroke="black"
       /><path fill="none" d="M206.8025 180.7591 L186.75 142" stroke="black"
       /><path fill="black" d="M198.2163 151.6708 L186.75 142 L188.0196 156.9462 Z" stroke="none"
@@ -20,27 +32,6 @@
     ><g font-size="10px" text-rendering="geometricPrecision" image-rendering="optimizeQuality" color-rendering="optimizeQuality" font-family="sans-serif" color-interpolation="linearRGB" font-weight="bold"
     ><text x="206" xml:space="preserve" y="189" stroke="none"
       >?</text
-      ><path fill="none" d="M372.5 242 L372.6069 271.5"
-      /><path fill="none" d="M372.6431 281.5 L372.75 311"
-    /></g
-    ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
-    ><path d="M372.75 311 L366.9596 297.1627 L378.44 297.1211 Z" stroke="none"
-      /><path fill="none" d="M372.75 311 L366.9596 297.1627 L378.44 297.1211 Z" stroke="black"
-      /><path fill="none" d="M372.6069 271.5 L372.6069 271.5" stroke="black"
-      /><path fill="none" d="M372.6431 281.5 L372.6431 281.5" stroke="black"
-      /><line y2="271.5" fill="none" x1="372.6431" x2="372.6069" stroke="black" y1="281.5"
-      /><path fill="none" d="M372 127 L372.1684 153.6001" stroke="black"
-      /><path fill="none" d="M372.2317 163.5999 L372.5 206" stroke="black"
-      /><path fill="black" d="M366.6721 192.1784 L372.5 206 L378.1524 192.1058 Z" stroke="none"
-      /><path fill="none" d="M440 158 L377.1999 158.5684" stroke="black"
-      /><circle r="4" cx="381.1997" cy="158.5322" stroke="none"
-      /><circle fill="none" r="4" cx="381.1997" cy="158.5322" stroke="black"
-      /><rect x="367.2" width="10" height="10" y="153.6" transform="translate(372.2,158.6) rotate(89.6374) translate(-372.2,-158.6)" stroke="none"
-      /><rect x="367.2" y="153.6" transform="translate(372.2,158.6) rotate(89.6374) translate(-372.2,-158.6)" fill="none" width="10" height="10" stroke="black"
-    /></g
-    ><g font-size="10px" text-rendering="geometricPrecision" image-rendering="optimizeQuality" color-rendering="optimizeQuality" font-family="sans-serif" color-interpolation="linearRGB" font-weight="bold"
-    ><text x="372" xml:space="preserve" y="162" stroke="none"
-      ></text
     ></g
     ><g fill="rgb(248,247,240)" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="rgb(248,247,240)" image-rendering="optimizeQuality"
     ><path d="M189 206 L556 206 L561 211 L561 237 L556 242 L189 242 L184 237 L184 211 Z" stroke="none" fill-rule="evenodd"
@@ -49,40 +40,27 @@
     ><path fill="none" d="M189 206 L556 206 L561 211 L561 237 L556 242 L189 242 L184 237 L184 211 Z" fill-rule="evenodd"
       /><text x="356" y="237" font-family="sans-serif" stroke-dasharray="none" stroke="none" stroke-width="1" xml:space="preserve"
       >f69df</text
-      ><path fill="none" stroke-width="1" stroke-dasharray="none" d="M278.25 242 L278.25 272.5"
-      /><path fill="none" stroke-width="1" stroke-dasharray="none" d="M278.25 282.5 L278.25 313"
+      ><path fill="none" stroke-width="1" stroke-dasharray="none" d="M372 127 L372.1684 153.6001"
+      /><path fill="none" stroke-width="1" stroke-dasharray="none" d="M372.2317 163.5999 L372.5 206"
+      /><path stroke-width="1" stroke-dasharray="none" d="M366.6721 192.1784 L372.5 206 L378.1524 192.1058 Z" stroke="none"
+      /><path fill="none" stroke-width="1" stroke-dasharray="none" d="M440 158 L377.1999 158.5684"
     /></g
     ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
-    ><path d="M278.25 313 L272.5097 299.1418 L283.9903 299.1418 Z" stroke="none"
-      /><path fill="none" d="M278.25 313 L272.5097 299.1418 L283.9903 299.1418 Z" stroke="black"
-      /><line y2="272.5" fill="none" x1="278.25" x2="278.25" stroke="black" y1="282.5"
-      /><ellipse rx="72.5" ry="15" cx="150.5" cy="127" stroke="none"
-      /><ellipse rx="72.5" fill="none" ry="15" cx="150.5" cy="127" stroke="blue"
+    ><circle r="4" cx="381.1997" cy="158.5322" stroke="none"
+      /><circle fill="none" r="4" cx="381.1997" cy="158.5322" stroke="black"
+      /><rect x="367.2" width="10" height="10" y="153.6" transform="translate(372.2,158.6) rotate(89.6374) translate(-372.2,-158.6)" stroke="none"
+      /><rect x="367.2" y="153.6" transform="translate(372.2,158.6) rotate(89.6374) translate(-372.2,-158.6)" fill="none" width="10" height="10" stroke="black"
     /></g
-    ><g font-size="10px" fill="blue" text-rendering="geometricPrecision" image-rendering="optimizeQuality" color-rendering="optimizeQuality" font-family="sans-serif" stroke="blue" color-interpolation="linearRGB"
-    ><text x="95" xml:space="preserve" y="124" stroke="none"
-      >methapyrilene-S-oxide</text
-      ><text x="101" xml:space="preserve" y="137" stroke="none"
-      >glutathion conjugate</text
+    ><g font-size="10px" text-rendering="geometricPrecision" image-rendering="optimizeQuality" color-rendering="optimizeQuality" font-family="sans-serif" color-interpolation="linearRGB" font-weight="bold"
+    ><text x="372" xml:space="preserve" y="162" stroke="none"
+      ></text
     ></g
     ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
-    ><ellipse rx="40" ry="10" cx="513" cy="224" stroke="none"
-      /><ellipse rx="40" fill="none" ry="10" cx="513" cy="224" stroke="blue"
-    /></g
-    ><g font-size="10px" fill="blue" text-rendering="geometricPrecision" image-rendering="optimizeQuality" color-rendering="optimizeQuality" font-family="sans-serif" stroke="blue" color-interpolation="linearRGB"
-    ><text x="486" xml:space="preserve" y="227" stroke="none"
-      >MP-Noxide</text
-    ></g
-    ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
-    ><ellipse rx="76.5" ry="10" cx="396.5" cy="224" stroke="none"
-      /><ellipse rx="76.5" fill="none" ry="10" cx="396.5" cy="224" stroke="blue"
-    /></g
-    ><g font-size="10px" fill="blue" text-rendering="geometricPrecision" image-rendering="optimizeQuality" color-rendering="optimizeQuality" font-family="sans-serif" stroke="blue" color-interpolation="linearRGB"
-    ><text x="326" xml:space="preserve" y="227" stroke="none"
-      >demethylated methapyrilene</text
-    ></g
-    ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
-    ><ellipse rx="64" ry="10" cx="256" cy="224" stroke="none"
+    ><path d="M312.25 321 L322.25 311 L423.25 311 L433.25 321 L423.25 331 L322.25 331 Z" stroke="none" fill-rule="evenodd"
+      /><path fill="none" d="M312.25 321 L322.25 311 L423.25 311 L433.25 321 L423.25 331 L322.25 331 Z" fill-rule="evenodd" stroke="rgb(20,150,30)"
+      /><text fill="rgb(20,150,30)" x="328" xml:space="preserve" y="325" font-family="sans-serif" stroke="none"
+      >Hepatotoxicity</text
+      ><ellipse rx="64" ry="10" cx="256" cy="224" stroke="none"
       /><ellipse rx="64" fill="none" ry="10" cx="256" cy="224" stroke="blue"
     /></g
     ><g font-size="10px" fill="blue" text-rendering="geometricPrecision" image-rendering="optimizeQuality" color-rendering="optimizeQuality" font-family="sans-serif" stroke="blue" color-interpolation="linearRGB"
@@ -90,22 +68,12 @@
       >methapyrilene-S-oxide</text
     ></g
     ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
-    ><path d="M189 327.5 L203.5 313 L293.5 313 L308 327.5 L293.5 342 L203.5 342 Z" stroke="none" fill-rule="evenodd"
-      /><path fill="none" d="M189 327.5 L203.5 313 L293.5 313 L308 327.5 L293.5 342 L203.5 342 Z" fill-rule="evenodd" stroke="rgb(20,150,30)"
-      /><text fill="rgb(20,150,30)" x="202" xml:space="preserve" y="324" font-family="sans-serif" stroke="none"
-      >Periportal Liver</text
-      ><text fill="rgb(20,150,30)" x="221" xml:space="preserve" y="339" font-family="sans-serif" stroke="none"
-      >Necrosis</text
-      ><path d="M312.25 321 L322.25 311 L423.25 311 L433.25 321 L423.25 331 L322.25 331 Z" stroke="none" fill-rule="evenodd"
-      /><path fill="none" d="M312.25 321 L322.25 311 L423.25 311 L433.25 321 L423.25 331 L322.25 331 Z" fill-rule="evenodd" stroke="rgb(20,150,30)"
-      /><text fill="rgb(20,150,30)" x="328" xml:space="preserve" y="325" font-family="sans-serif" stroke="none"
-      >Hepatotoxicity</text
-      ><rect x="71" y="195" width="51" rx="5" ry="5" height="20" stroke="none"
-      /><rect x="71" y="195" fill="none" width="51" rx="5" ry="5" height="20" stroke="black"
+    ><rect x="440" y="148" width="80" rx="5" ry="5" height="20" stroke="none"
+      /><rect x="440" y="148" fill="none" width="80" rx="5" ry="5" height="20" stroke="black"
     /></g
     ><g text-rendering="geometricPrecision" font-size="10px" font-family="sans-serif" color-interpolation="linearRGB" color-rendering="optimizeQuality" image-rendering="optimizeQuality"
-    ><text x="85" xml:space="preserve" y="208" stroke="none"
-      >GSH</text
+    ><text x="466" xml:space="preserve" y="161" stroke="none"
+      >CYPs</text
     ></g
     ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
     ><ellipse rx="40" ry="10" cx="372" cy="117" stroke="none"
@@ -116,13 +84,47 @@
       >Methapyrilene</text
     ></g
     ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
-    ><rect x="440" y="148" width="80" rx="5" ry="5" height="20" stroke="none"
-      /><rect x="440" y="148" fill="none" width="80" rx="5" ry="5" height="20" stroke="black"
+    ><ellipse rx="72.5" ry="15" cx="150.5" cy="127" stroke="none"
+      /><ellipse rx="72.5" fill="none" ry="15" cx="150.5" cy="127" stroke="blue"
+    /></g
+    ><g font-size="10px" fill="blue" text-rendering="geometricPrecision" image-rendering="optimizeQuality" color-rendering="optimizeQuality" font-family="sans-serif" stroke="blue" color-interpolation="linearRGB"
+    ><text x="95" xml:space="preserve" y="124" stroke="none"
+      >methapyrilene-S-oxide</text
+      ><text x="101" xml:space="preserve" y="137" stroke="none"
+      >glutathion conjugate</text
+    ></g
+    ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
+    ><path d="M189 327.5 L203.5 313 L293.5 313 L308 327.5 L293.5 342 L203.5 342 Z" stroke="none" fill-rule="evenodd"
+      /><path fill="none" d="M189 327.5 L203.5 313 L293.5 313 L308 327.5 L293.5 342 L203.5 342 Z" fill-rule="evenodd" stroke="rgb(20,150,30)"
+      /><text fill="rgb(20,150,30)" x="202" xml:space="preserve" y="324" font-family="sans-serif" stroke="none"
+      >Periportal Liver</text
+      ><text fill="rgb(20,150,30)" x="221" xml:space="preserve" y="339" font-family="sans-serif" stroke="none"
+      >Necrosis</text
+      ><ellipse rx="76.5" ry="10" cx="396.5" cy="224" stroke="none"
+      /><ellipse rx="76.5" fill="none" ry="10" cx="396.5" cy="224" stroke="blue"
+    /></g
+    ><g font-size="10px" fill="blue" text-rendering="geometricPrecision" image-rendering="optimizeQuality" color-rendering="optimizeQuality" font-family="sans-serif" stroke="blue" color-interpolation="linearRGB"
+    ><text x="326" xml:space="preserve" y="227" stroke="none"
+      >demethylated methapyrilene</text
+    ></g
+    ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
+    ><rect x="71" y="195" width="51" rx="5" ry="5" height="20" stroke="none"
+      /><rect x="71" y="195" fill="none" width="51" rx="5" ry="5" height="20" stroke="black"
     /></g
     ><g text-rendering="geometricPrecision" font-size="10px" font-family="sans-serif" color-interpolation="linearRGB" color-rendering="optimizeQuality" image-rendering="optimizeQuality"
-    ><text x="466" xml:space="preserve" y="161" stroke="none"
-      >CYPs</text
-      ><text x="538" xml:space="preserve" font-size="12px" y="280" font-family="'Dialog'" stroke="none"
+    ><text x="85" xml:space="preserve" y="208" stroke="none"
+      >GSH</text
+    ></g
+    ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
+    ><ellipse rx="40" ry="10" cx="513" cy="224" stroke="none"
+      /><ellipse rx="40" fill="none" ry="10" cx="513" cy="224" stroke="blue"
+    /></g
+    ><g font-size="10px" fill="blue" text-rendering="geometricPrecision" image-rendering="optimizeQuality" color-rendering="optimizeQuality" font-family="sans-serif" stroke="blue" color-interpolation="linearRGB"
+    ><text x="486" xml:space="preserve" y="227" stroke="none"
+      >MP-Noxide</text
+    ></g
+    ><g text-rendering="geometricPrecision" color-rendering="optimizeQuality" color-interpolation="linearRGB" image-rendering="optimizeQuality"
+    ><text x="538" xml:space="preserve" y="280" stroke="none"
       >Metabolites</text
     ></g
   ></g

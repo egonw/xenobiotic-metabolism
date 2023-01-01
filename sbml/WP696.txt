@@ -1,0 +1,14 @@
+Benzene metabolism primarily takes place in the liver, to a variety of products that are transported to the bone marrow where additional metabolism occurs. Several metabolites of benzene are responsible for the toxic effects of benzene including reactive metabolites that covalently bind macromolecules and induce oxidative damage.
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP696 CPTAC Assay Portal]
+Metabolic Process
+
+[ARROW:aa851]	Curved connections are not supported.
+[ARROW:aae88]	Curved connections are not supported.
+[ARROW:b680d]	Curved connections are not supported.
+[ARROW:bf0bc]	Curved connections are not supported.
+[ARROW:d3bbf]	Curved connections are not supported.
+[ARROW:d4d95]	Curved connections are not supported.
+[ARROW:dcac1]	Curved connections are not supported.
+[ARROW:de12e]	Curved connections are not supported.
+[ARROW:f25b0]	Curved connections are not supported.

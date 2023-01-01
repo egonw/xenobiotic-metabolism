@@ -44,20 +44,20 @@
       >dehydroaripiprazole</text
     ></g
     ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
+    ><ellipse rx="40" ry="10" cx="211" cy="86" stroke="none"
+      /><ellipse rx="40" fill="none" ry="10" cx="211" cy="86" stroke="blue"
+    /></g
+    ><g font-size="10px" fill="blue" text-rendering="geometricPrecision" image-rendering="optimizeQuality" color-rendering="optimizeQuality" font-family="sans-serif" stroke="blue" color-interpolation="linearRGB"
+    ><text x="183" xml:space="preserve" y="89" stroke="none"
+      >aripiprazole</text
+    ></g
+    ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
     ><rect x="81" width="80" height="20" y="129" stroke="none"
       /><rect fill="none" x="81" width="80" height="20" y="129" stroke="black"
     /></g
     ><g text-rendering="geometricPrecision" font-size="10px" font-family="sans-serif" color-interpolation="linearRGB" color-rendering="optimizeQuality" image-rendering="optimizeQuality"
     ><text x="97" xml:space="preserve" y="142" stroke="none"
       >CYP3A43</text
-    ></g
-    ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
-    ><rect x="271" width="80" height="20" y="28" stroke="none"
-      /><rect fill="none" x="271" width="80" height="20" y="28" stroke="black"
-    /></g
-    ><g text-rendering="geometricPrecision" font-size="10px" font-family="sans-serif" color-interpolation="linearRGB" color-rendering="optimizeQuality" image-rendering="optimizeQuality"
-    ><text x="290" xml:space="preserve" y="41" stroke="none"
-      >CYP2D6</text
     ></g
     ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
     ><ellipse rx="40" ry="10" cx="211" cy="193" stroke="none"
@@ -68,12 +68,12 @@
       >Product</text
     ></g
     ><g fill="white" text-rendering="geometricPrecision" color-interpolation="linearRGB" color-rendering="optimizeQuality" stroke="white" image-rendering="optimizeQuality"
-    ><ellipse rx="40" ry="10" cx="211" cy="86" stroke="none"
-      /><ellipse rx="40" fill="none" ry="10" cx="211" cy="86" stroke="blue"
+    ><rect x="271" width="80" height="20" y="28" stroke="none"
+      /><rect fill="none" x="271" width="80" height="20" y="28" stroke="black"
     /></g
-    ><g font-size="10px" fill="blue" text-rendering="geometricPrecision" image-rendering="optimizeQuality" color-rendering="optimizeQuality" font-family="sans-serif" stroke="blue" color-interpolation="linearRGB"
-    ><text x="183" xml:space="preserve" y="89" stroke="none"
-      >aripiprazole</text
+    ><g text-rendering="geometricPrecision" font-size="10px" font-family="sans-serif" color-interpolation="linearRGB" color-rendering="optimizeQuality" image-rendering="optimizeQuality"
+    ><text x="290" xml:space="preserve" y="41" stroke="none"
+      >CYP2D6</text
     ></g
   ></g
 ></svg
