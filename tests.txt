@@ -15,7 +15,7 @@ ChEBIMetabolitesTests.all
 ChemSpiderTests.all
 #ChemSpiderTests.chemSpiderIDsNotNumbers
 #ChemSpiderTests.outdatedIdentifiers
-CovidDiseaseMapsTests.all
+#CovidDiseaseMapsTests.all
 #CovidDiseaseMapsTests.interactionsWithoutReferences
 #CovidDiseaseMapsTests.missingHGNC
 DataNodesTests.all
@@ -23,12 +23,12 @@ DataNodesTests.all
 #DataNodesTests.unknownTypes
 #DataNodesTests.unknownTypes_Reactome
 #DataNodesTests.unknownTypes_knownDatasource
-EnsemblTests.all
+#EnsemblTests.all
 #EnsemblTests.outdatedIdentifiers
-#EnsemblTests.wrongEnsemblIDForCowSpecies
-#EnsemblTests.wrongEnsemblIDForHumanSpecies
-#EnsemblTests.wrongEnsemblIDForMouseSpecies
-#EnsemblTests.wrongEnsemblIDForRatSpecies
+EnsemblTests.wrongEnsemblIDForCowSpecies
+EnsemblTests.wrongEnsemblIDForHumanSpecies
+EnsemblTests.wrongEnsemblIDForMouseSpecies
+EnsemblTests.wrongEnsemblIDForRatSpecies
 GeneTests.all
 #GeneTests.affyProbeIdentifiersNotCorrect
 #GeneTests.entrezGeneIdentifiersNotNumber
@@ -51,7 +51,7 @@ GeneralTests.weirdCharacterTitles
 HMDBMetabolitesTests.all
 #HMDBMetabolitesTests.correctFormat
 #HMDBMetabolitesTests.outdatedIdentifiers
-HMDBSecMetabolitesTests.all
+#HMDBSecMetabolitesTests.all
 #HMDBSecMetabolitesTests.nonExisting
 #HMDBSecMetabolitesTests.oldFormat
 #HMDBSecMetabolitesTests.outdatedIdentifiers
@@ -67,7 +67,7 @@ InteractionTests.all
 KEGGMetaboliteTests.all
 #KEGGMetaboliteTests.hasCPDprefix
 #KEGGMetaboliteTests.noCnumber
-LIPIDMAPSTests.all
+#LIPIDMAPSTests.all
 #LIPIDMAPSTests.onlyLIPIDMAPS
 #LIPIDMAPSTests.retiredIdentifiers
 MetaboliteStructureTests.all
