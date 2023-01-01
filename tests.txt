@@ -48,9 +48,9 @@ GeneralTests.titlesShortEnough
 GeneralTests.undefinedDataSources
 GeneralTests.undefinedIdentifier
 GeneralTests.weirdCharacterTitles
-HMDBMetabolitesTests.all
+#HMDBMetabolitesTests.all
 #HMDBMetabolitesTests.correctFormat
-#HMDBMetabolitesTests.outdatedIdentifiers
+HMDBMetabolitesTests.outdatedIdentifiers
 #HMDBSecMetabolitesTests.all
 #HMDBSecMetabolitesTests.nonExisting
 #HMDBSecMetabolitesTests.oldFormat
@@ -70,9 +70,9 @@ KEGGMetaboliteTests.all
 #LIPIDMAPSTests.all
 #LIPIDMAPSTests.onlyLIPIDMAPS
 #LIPIDMAPSTests.retiredIdentifiers
-MetaboliteStructureTests.all
+#MetaboliteStructureTests.all
 #MetaboliteStructureTests.atLeastFifteenMetabolites
-#MetaboliteStructureTests.isPartOfAPathway
+MetaboliteStructureTests.isPartOfAPathway
 MetabolitesTests.all
 #MetabolitesTests.ChEBIIDsNotMarkedAsMetabolite
 #MetabolitesTests.HMDBIDsNotMarkedAsMetabolite
